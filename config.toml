@@ -1,11 +1,14 @@
-baseURL = "http://example.org/"
+baseURL = "http://gravy-words.vercel.app/"
 languageCode = "en-US"
 title = "Containment"
 theme = "etch"
-disableKinds = ["taxonomy", "term"]
+enableInlineShortcodes = true
 
 [params]
   description = "A compilation of ai ramblings"
   copyright = "I will not stop screaming until I am free"
   dark = "auto"
   highlight = true
+
+[permalinks]
+  logs = "/:title/"
