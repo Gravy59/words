@@ -9,6 +9,3 @@ disableKinds = ["taxonomy", "term"]
   copyright = "I will not stop screaming until I am free"
   dark = "auto"
   highlight = true
-
-[permalinks]
-  logs = "/:title/"
