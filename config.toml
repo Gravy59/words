@@ -12,3 +12,6 @@ enableInlineShortcodes = true
 
 [permalinks]
   logs = "/:title/"
+
+[security.funcs]
+getenv = [ "^VERCEL_" ]
